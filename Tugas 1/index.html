@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramadan Kareem</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="text-white">
+
+<!-- Background Image -->
+<div class="position-fixed top-0 start-0 w-100 h-100"
+     style="background: url('https://png.pngtree.com/thumb_back/fh260/background/20250517/pngtree-beautiful-golden-mosque-under-starry-night-sky-with-crescent-moon-and-image_17300276.jpg') center/cover no-repeat; z-index: -2;">
+</div>
+
+<!-- Overlay -->
+<div class="position-fixed top-0 start-0 w-100 h-100 bg-dark opacity-75" style="z-index: -1;"></div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-50 shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#"><i class="bi bi-moon-stars-fill"></i> Ramadan Kareem</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Jadwal</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Doa</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="container d-flex flex-column justify-content-center align-items-center text-center" style="min-height: 100vh;">
+
+    <div class="p-5 rounded-4 shadow-lg bg-dark bg-opacity-50 backdrop-blur">
+
+        <h1 class="display-4 fw-bold mb-3">
+            🌙 Selamat Menjalankan Ibadah Puasa
+        </h1>
+
+        <p class="lead mb-4">
+            Ramadan adalah bulan penuh berkah, ampunan, dan kebahagiaan
+        </p>
+
+        <!-- Button -->
+        <button class="btn btn-warning btn-lg px-4 shadow"
+                data-bs-toggle="modal"
+                data-bs-target="#thrModal">
+            <i class="bi bi-gift-fill"></i> Klaim THR
+        </button>
+
+        <!-- Extra Cards -->
+        <div class="row mt-5 g-3">
+            <div class="col-md-4">
+                <div class="card bg-success bg-opacity-75 text-white shadow">
+                    <div class="card-body">
+                        <i class="bi bi-sunrise fs-2"></i>
+                        <h5 class="mt-2">Sahur</h5>
+                        <p>Jangan lupa sahur untuk energi puasa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-warning text-dark shadow">
+                    <div class="card-body">
+                        <i class="bi bi-moon fs-2"></i>
+                        <h5 class="mt-2">Berbuka</h5>
+                        <p>Awali dengan yang manis 🍯</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card bg-info text-dark shadow">
+                    <div class="card-body">
+                        <i class="bi bi-stars fs-2"></i>
+                        <h5 class="mt-2">Tarawih</h5>
+                        <p>Perbanyak ibadah malam hari</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Modal THR Premium -->
+<div class="modal fade" id="thrModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content border-0 shadow-lg text-center overflow-hidden">
+  
+        <!-- Header -->
+        <div class="bg-warning text-dark py-4">
+          <h4 class="fw-bold mb-0">🎉 CONGRATULATIONS 🎉</h4>
+          <small>Ramadan Special Reward</small>
+        </div>
+  
+        <!-- Body -->
+        <div class="modal-body p-4">
+  
+          <!-- Icon besar -->
+          <div class="mb-3">
+            <i class="bi bi-gift-fill text-warning" style="font-size: 4rem;"></i>
+          </div>
+  
+          <h3 class="fw-bold text-success">Selamat!</h3>
+          <p class="mb-3">Anda mendapatkan THR spesial Ramadan</p>
+  
+          <!-- Nominal -->
+          <div class="bg-success text-white rounded-4 py-3 px-4 mb-3 shadow">
+            <h2 class="fw-bold mb-0">Rp 1.000.000</h2>
+          </div>
+  
+          <p class="text-muted">Gunakan dengan bijak ya 🙏</p>
+  
+        </div>
+  
+        <!-- Footer -->
+        <div class="modal-footer justify-content-center border-0 pb-4">
+          <button class="btn btn-success px-4" data-bs-dismiss="modal">
+            Ambil Hadiah
+          </button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="text-center py-3 bg-dark bg-opacity-50">
+    <small>Ramadan Project | 2311102233_Muhammad Amir Saleh</small>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
